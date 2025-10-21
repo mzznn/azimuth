@@ -1,0 +1,21 @@
+body {
+  background-color: #e1e1e1;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.image {
+  width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.image[data-status="inactive"] {
+  display: none;
+}
+
+.image[data-status="active"] {
+  display: block;
+}}
