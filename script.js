@@ -11,6 +11,7 @@ const activate = (image, x, y) => {
   image.dataset.status = "active";
 
   last = { x, y };
+  
 }
 
 const distanceFromLast = (x, y) => {

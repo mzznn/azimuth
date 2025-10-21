@@ -1,13 +1,62 @@
-body {
-  background-color: #e1e1e1;
-  height: 100vh;
-  margin: 0px;
-  overflow: hidden;
-  cursor: crosshair;
+:root {
+  font-size: 1.4rem;
 }
 
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+canvas {
+  display: grid;
+  width: 100vw;
+  justify-self: center;
+  /* border: 2px solid red; */
+}
+
+body {
+  height: 100vh;
+  font-family: "Spectral", serif; 
+  overflow: hidden;
+  margin: auto;
+  /* border: 2px solid blue; */
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ padding: 4rem 2rem 8rem 2rem;
+ gap: 5%;
+}
+.element1 {
+  height: 5vh;
+  padding: 1rem;
+}
+.element2 {
+  height: 5vh;
+  padding: 1rem;
+}
+.element3 {
+  height: 5vh;
+  padding: 1rem;
+}
+
+p {
+
+}
 .image {
-  width: 40vmin;
+  width: 50vmin;
+  border-radius: 4px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
